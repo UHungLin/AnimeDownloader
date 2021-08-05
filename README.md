@@ -8,7 +8,7 @@
 
 ## :blush: ​使用教程
 
-### 下载 B 站视频
+### [下载 B 站视频](https://www.bilibili.com/)
 支持的类型
 
 - 普通视频（不支持互动类视频）
@@ -27,7 +27,7 @@
 
 ![](./screenshots/bilibili-download-video-02.gif)
 
-### 下载A站视频
+### [下载 A 站视频](https://www.acfun.cn/)
 
 支持类型
 
@@ -36,7 +36,7 @@
 
 ![](./screenshots/acfun-download-video-01.gif)
 
-### 下载樱花动漫视频
+### [下载樱花动漫视频](http://www.imomoe.la/)
 
 支持类型
 
