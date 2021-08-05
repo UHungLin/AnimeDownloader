@@ -50,20 +50,19 @@
 
 本项目后端使用 `java` + `netty`，前端使用 `electron`
 
-其中前端项目是由 [`BilibiliVideoDownload`](https://github.com/blogwy/BilibiliVideoDownload) 这个项目修改的。本来自己想用 `JavaFx` 或者 `electron` 写的，可写出来的太丑了.... :stuck_out_tongue:​ ~~拿来吧你~~ 感谢该作者:smile:​ 。我把里面下载逻辑删了，只保留了基本框架，改成用 `websocket` 和后端通信，顺便改了下样式布局等
+其中前端项目是由 [`BilibiliVideoDownload`](https://github.com/blogwy/BilibiliVideoDownload) 这个项目修改的。本来自己想用 `JavaFx` 或者 `electron` 写的，可写出来的太丑了.... :stuck_out_tongue:​ 感谢该作者:smile:​ 。我把里面下载逻辑删了，只保留了基本框架，改成用 `websocket` 和后端通信，顺便改了下样式布局等
 
 ## :satisfied: ​编译运行
 
 ```
-git@github.com:UHungLin/AnimeDownloader.git
-cd AnimeDownloader/lin-frontend
-yarn
-yarn electron:serve
-yarn electron:build
-
-cd ../lin-server
+git clone git@github.com:UHungLin/AnimeDownloader.git
+cd AnimeDownloader/lin-server
 mvn clean package
 java -jar lin-server.jar
+
+cd ../lin-frontend
+yarn
+yarn electron:serve
 ```
 
 **注意：`windows` 用户记得把 ffmpeg.exe 放在和 lin-server.jar 同一层的目录下，`linux` 或 `mac` 用户需要在电脑中安装 `ffmpeg`（[官网](http://www.ffmpeg.org/download.html)），否则无法合并 B 站下载的视频。**
@@ -106,5 +105,7 @@ java -jar lin-server.jar
 ##### [BilibiliVideoDownload](https://github.com/blogwy/BilibiliVideoDownload)
 
 ##### [FileDownloader](https://github.com/lingochamp/FileDownloader)
+
+##### [snail](https://github.com/acgist/snail)
 
 
