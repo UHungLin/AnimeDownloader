@@ -87,6 +87,9 @@ yarn electron:serve
 4、安装完成文件结构
 - AnimeDownloader
   - AnimeDownloaderServer
+    - jre
+    - AnimeDownloaderServer.exe
+    - ...
   - AnimeDownloader.exe
   - ffmpeg.exe
   - ...
