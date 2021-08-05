@@ -1,0 +1,22 @@
+@import './common/common.less';
+
+html,body{
+  margin: 0px;
+  padding: 0px;
+}
+.is-full{
+  display: flex;
+  flex-direction: column;
+}
+.custom-drawer-scroll-bar{
+  .ant-drawer-wrapper-body{
+    &::-webkit-scrollbar{
+      display: none;
+    }
+  }
+}
+.custom-drawer-footer-placeholder{
+  position: relative;
+  z-index: 4;
+  height: 53px;
+}
