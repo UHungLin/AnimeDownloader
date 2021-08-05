@@ -78,15 +78,15 @@ java -jar lin-server.jar
 1、下载，解压到 ./AnimeDownloader 文件夹下
 文件结构
 - AnimeDownloader
-	- animeDownloader-server
-	- AnimeDownloader Setup 1.0.0.exe
+  - animeDownloader-server
+  - AnimeDownloader Setup 1.0.0.exe
 2、双击 AnimeDownloader Setup 1.0.0.exe 安装到当前文件夹 ./AnimeDownloader 下
 3、打开 animeDownloader-server
 双击 setup.exe 安装到 ./animeDownloader-server 下
 4、安装完成文件结构
 - AnimeDownloader
-	- AnimeDownloader
-	- animeDownloader-server
+  - AnimeDownloader
+  - animeDownloader-server
 打开 AnimeDownloader，双击 AnimeDownloader.exe 即可启动软件
 ```
 
