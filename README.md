@@ -82,12 +82,15 @@ yarn electron:serve
   - AnimeDownloader Setup 1.0.0.exe
 2、双击 AnimeDownloader Setup 1.0.0.exe 安装到当前文件夹 ./AnimeDownloader 下
 3、打开 animeDownloader-server
-双击 setup.exe 安装到 ./animeDownloader-server 下
+双击 setup.exe 安装到 ./AnimeDownloader 下
+把 ffmpeg.exe 移动到 ./AnimeDownloader 下
 4、安装完成文件结构
 - AnimeDownloader
-  - AnimeDownloader
-  - animeDownloader-server
-打开 AnimeDownloader，双击 AnimeDownloader.exe 即可启动软件
+  - AnimeDownloaderServer
+  - AnimeDownloader.exe
+  - ffmpeg.exe
+  - ...
+双击 AnimeDownloader.exe 即可启动软件
 ```
 
 ## :exclamation: ​注意事项
