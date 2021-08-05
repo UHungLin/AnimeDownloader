@@ -50,7 +50,7 @@
 
 本项目后端使用 `java` + `netty`，前端使用 `electron`
 
-其中前端项目是由 [`BilibiliVideoDownload`](https://github.com/blogwy/BilibiliVideoDownload) 这个项目修改的，我把里面下载逻辑删了，改成用 `websocket` 和后端通信，顺便改了下样式布局
+其中前端项目是由 [`BilibiliVideoDownload`](https://github.com/blogwy/BilibiliVideoDownload) 这个项目修改的（~~拿来吧你~~ 感谢该作者:smile:​），我把里面下载逻辑删了，改成用 `websocket` 和后端通信，顺便改了下样式布局
 
 （PS：本来自己想用 `JavaFx` 或者 `electron` 写的，可写出来的太丑了.... :stuck_out_tongue:）
 
