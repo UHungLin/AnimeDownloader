@@ -56,7 +56,8 @@
 
 ```
 git clone git@github.com:UHungLin/AnimeDownloader.git
-cd AnimeDownloader/lin-server
+cd AnimeDownloader
+cd lin-server
 mvn clean package
 java -jar lin-server.jar
 
