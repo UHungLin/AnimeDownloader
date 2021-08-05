@@ -59,6 +59,7 @@ git clone git@github.com:UHungLin/AnimeDownloader.git
 cd AnimeDownloader
 cd lin-server
 mvn clean package
+cd target
 java -jar lin-server.jar
 
 cd ../lin-frontend
