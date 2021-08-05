@@ -2,9 +2,9 @@
 
 ![语言java](https://img.shields.io/badge/Require-java-green.svg)
 ![支持系统 Win/Linux/Mac](https://img.shields.io/badge/Platform-%20win%20|%20linux%20|%20mac-lightgrey.svg)
-[![Author](https://img.shields.io/badge/author-UHungLin-red.svg?style=flat-square)](https://github.com/UHungLin)
-[![Stargazers](https://img.shields.io/github/stars/UHungLin/AnimeDownloader.svg?style=flat-square)](https://github.com/UHungLin/AnimeDownloader/stargazers)
-[![Fork](https://img.shields.io/github/forks/UHungLin/AnimeDownloader.svg?style=flat-square)](https://github.com/UHungLin/AnimeDownloader/fork)
+![Author](https://img.shields.io/badge/author-UHungLin-red.svg?style=flat-square)](https://github.com/UHungLin)
+![Stargazers](https://img.shields.io/github/stars/UHungLin/AnimeDownloader.svg?style=flat-square)](https://github.com/UHungLin/AnimeDownloader/stargazers)
+![Fork](https://img.shields.io/github/forks/UHungLin/AnimeDownloader.svg?style=flat-square)](https://github.com/UHungLin/AnimeDownloader/fork)
 ![Release 下载总量](https://img.shields.io/github/downloads/UHungLin/AnimeDownloader/total.svg?style=flat-square)
 ![开源协议Apache2.0](https://img.shields.io/badge/license-apache--2.0-green.svg)
 
