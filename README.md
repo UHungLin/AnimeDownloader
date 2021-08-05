@@ -58,11 +58,12 @@
 git clone git@github.com:UHungLin/AnimeDownloader.git
 cd AnimeDownloader
 cd lin-server
-mvn clean package
+mvn clean package assembly:single
 cd target
-java -jar lin-server.jar
+java -jar lin-server-jar-with-dependencies.jar
 
-cd ../lin-frontend
+cd AnimeDownloader
+cd lin-frontend
 yarn
 yarn electron:serve
 ```
