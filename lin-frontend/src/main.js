@@ -27,7 +27,7 @@ router.afterEach (( to, from, next ) => {
   }, 0)
 } )
 
-let process = exec('..\\animeDownloader-server\\AnimeDownloaderServer.exe')
+// let process = exec('..\\animeDownloader-server\\AnimeDownloaderServer.exe')
 // process.error.on('data', data => {
 //   console.log(data)
 // })
