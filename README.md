@@ -68,7 +68,7 @@ yarn
 yarn electron:serve
 ```
 
-**注意：`windows` 用户记得把 ffmpeg.exe 放在和 lin-server.jar 同一层的目录下，`linux` 或 `mac` 用户需要在电脑中安装 `ffmpeg`（[官网](http://www.ffmpeg.org/download.html)），否则无法合并 B 站下载的视频。**
+**注意：`windows` 用户记得把 ffmpeg.exe 放在和 lin-server.jar 同一层的目录下，`linux` 或 `mac` 用户需要在电脑中安装 `ffmpeg`（[官网](http://www.ffmpeg.org/download.html)）（修改 项目中`lin-server/src/main/java/org/lin/util/FFmpegUtil.java` 中的路径 `FFMPEG_PATH="xxx"` 指向你安装的 `ffmpeg` 地址），否则无法合并 B 站下载的视频。**
 
 ## :grin: ​ `Windows` 用户看过来
 
