@@ -68,7 +68,7 @@ yarn
 yarn electron:serve
 ```
 
-**注意：`windows` 用户记得把 ffmpeg.exe 放在和 lin-server.jar 同一层的目录下，`linux` 或 `mac` 用户需要在电脑中安装 `ffmpeg`（[官网](http://www.ffmpeg.org/download.html)），否则无法合并 B 站下载的视频。**
+**注意：`windows` 用户记得把 ffmpeg.exe 放在和 lin-server.jar 同一层的目录下，`linux` 或 `mac` 用户需要在电脑中安装 `ffmpeg`（[官网](http://www.ffmpeg.org/download.html)）（修改 项目中`lin-server/src/main/java/org/lin/util/FFmpegUtil.java` 中的路径 `FFMPEG_PATH="xxx"` 指向你安装的 `ffmpeg` 地址），否则无法合并 B 站下载的视频。**
 
 ## :grin: ​ `Windows` 用户看过来
 
@@ -78,20 +78,20 @@ yarn electron:serve
 1、下载，解压到 ./AnimeDownloader 文件夹下
 文件结构
 - AnimeDownloader
-  - animeDownloader-server
   - AnimeDownloader Setup 1.0.0.exe
+  - ffmpeg.exe
+  - setup.exe
 2、双击 AnimeDownloader Setup 1.0.0.exe 安装到当前文件夹 ./AnimeDownloader 下
-3、打开 animeDownloader-server
-双击 setup.exe 安装到 ./AnimeDownloader 下
-把 ffmpeg.exe 移动到 ./AnimeDownloader 下
+3、双击 setup.exe 安装到 ./AnimeDownloader/AnimeDownloaderServer 下
+把 ffmpeg.exe 移动到 ./AnimeDownloader/AnimeDownloaderServer 下
 4、安装完成文件结构
 - AnimeDownloader
   - AnimeDownloaderServer
     - jre
     - AnimeDownloaderServer.exe
+    - ffmpeg.exe
     - ...
   - AnimeDownloader.exe
-  - ffmpeg.exe
   - ...
 双击 AnimeDownloader.exe 即可启动软件
 ```
