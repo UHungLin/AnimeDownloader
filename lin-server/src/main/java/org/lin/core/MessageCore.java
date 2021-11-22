@@ -29,6 +29,7 @@ public class MessageCore {
 	private static final Object LOCK = new Object();
 	private static final AtomicLong ID_GENERATOR = new AtomicLong(0);
 
+	// TODO 换成 LinkedHashMap
 	private static final Map<String, Map<String, Message>> taskIdMessageMap = new HashMap<>();
 	private static final LinkedList<Message> callbackMessageList = new LinkedList<>();
 
